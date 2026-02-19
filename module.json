@@ -1,0 +1,28 @@
+{
+  "id": "pf2e-mousetrap-ui-modifier",
+  "title": "pf2e-mousetrap-ui-modifier",
+  "description": "GM-only audit log for PF2e",
+  "version": "2.1.0",
+
+  "authors": [
+    { "name": "Victor Radcliffe" }
+  ],
+
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+
+  "relationships": {
+    "systems": [
+      { "id": "pf2e", "type": "system" }
+    ]
+  },
+
+  "scripts": [
+    "scripts/mousetrap.js"
+  ],
+
+  "manifest": "https://raw.githubusercontent.com/victorradcliffe6/pf2e-mousetrap-ui-modifier/main/module.json",
+  "download": "https://github.com/victorradcliffe6/pf2e-mousetrap-ui-modifier/releases/latest/download/pf2e-mousetrap-ui-modifier.zip"
+}
